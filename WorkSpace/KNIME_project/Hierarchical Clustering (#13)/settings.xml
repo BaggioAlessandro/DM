@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.cluster.hierarchical.HierarchicalClusterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Hierarchical Clustering"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<config key="factory_settings"/>
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="numberClusters_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="numberClusters" type="xint" value="3"/>
+<config key="distFunction_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distFunction" type="xstring" value="Euclidean"/>
+<config key="linkageType_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="linkageType" type="xstring" value="SINGLE"/>
+<config key="cacheDistances_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cacheDistances" type="xboolean" value="true"/>
+<config key="selectedColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="selectedColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="495"/>
+<entry key="0" type="xstring" value="FNC1"/>
+<entry key="1" type="xstring" value="FNC2"/>
+<entry key="2" type="xstring" value="FNC3"/>
+<entry key="3" type="xstring" value="FNC4"/>
+<entry key="4" type="xstring" value="FNC5"/>
+<entry key="5" type="xstring" value="FNC6"/>
+<entry key="6" type="xstring" value="FNC7"/>
+<entry key="7" type="xstring" value="FNC8"/>
+<entry key="8" type="xstring" value="FNC9"/>
+<entry key="9" type="xstring" value="FNC10"/>
+<entry key="10" type="xstring" value="FNC11"/>
+<entry key="11" type="xstring" value="FNC12"/>
+<entry key="12" type="xstring" value="FNC13"/>
+<entry key="13" type="xstring" value="FNC14"/>
+<entry key="14" type="xstring" value="FNC15"/>
+<entry key="15" type="xstring" value="FNC16"/>
+<entry key="16" type="xstring" value="FNC17"/>
+<entry key="17" type="xstring" value="FNC18"/>
+<entry key="18" type="xstring" value="FNC19"/>
+<entry key="19" type="xstring" value="FNC20"/>
+<entry key="20" type="xstring" value="FNC21"/>
+<entry key="21" type="xstring" value="FNC22"/>
+<entry key="22" type="xstring" value="FNC23"/>
+<entry key="23" type="xstring" value="FNC24"/>
+<entry key="24" type="xstring" value="FNC25"/>
+<entry key="25" type="xstring" value="FNC26"/>
+<entry key="26" type="xstring" value="FNC27"/>
+<entry key="27" type="xstring" value="FNC28"/>
+<entry key="28" type="xstring" value="FNC29"/>
+<entry key="29" type="xstring" value="FNC30"/>
+<entry key="30" type="xstring" value="FNC31"/>
+<entry key="31" type="xstring" value="FNC32"/>
+<entry key="32" type="xstring" value="FNC33"/>
+<entry key="33" type="xstring" value="FNC34"/>
+<entry key="34" type="xstring" value="FNC35"/>
+<entry key="35" type="xstring" value="FNC36"/>
+<entry key="36" type="xstring" value="FNC37"/>
+<entry key="37" type="xstring" value="FNC38"/>
+<entry key="38" type="xstring" value="FNC39"/>
+<entry key="39" type="xstring" value="FNC40"/>
+<entry key="40" type="xstring" value="FNC41"/>
+<entry key="41" type="xstring" value="FNC42"/>
+<entry key="42" type="xstring" value="FNC43"/>
+<entry key="43" type="xstring" value="FNC44"/>
+<entry key="44" type="xstring" value="FNC45"/>
+<entry key="45" type="xstring" value="FNC46"/>
+<entry key="46" type="xstring" value="FNC47"/>
+<entry key="47" type="xstring" value="FNC48"/>
+<entry key="48" type="xstring" value="FNC49"/>
+<entry key="49" type="xstring" value="FNC50"/>
+<entry key="50" type="xstring" value="FNC51"/>
+<entry key="51" type="xstring" value="FNC52"/>
+<entry key="52" type="xstring" value="FNC53"/>
+<entry key="53" type="xstring" value="FNC54"/>
+<entry key="54" type="xstring" value="FNC55"/>
+<entry key="55" type="xstring" value="FNC56"/>
+<entry key="56" type="xstring" value="FNC57"/>
+<entry key="57" type="xstring" value="FNC58"/>
+<entry key="58" type="xstring" value="FNC59"/>
+<entry key="59" type="xstring" value="FNC60"/>
+<entry key="60" type="xstring" value="FNC61"/>
+<entry key="61" type="xstring" value="FNC62"/>
+<entry key="62" type="xstring" value="FNC63"/>
+<entry key="63" type="xstring" value="FNC64"/>
+<entry key="64" type="xstring" value="FNC65"/>
+<entry key="65" type="xstring" value="FNC66"/>
+<entry key="66" type="xstring" value="FNC67"/>
+<entry key="67" type="xstring" value="FNC68"/>
+<entry key="68" type="xstring" value="FNC69"/>
+<entry key="69" type="xstring" value="FNC70"/>
+<entry key="70" type="xstring" value="FNC71"/>
+<entry key="71" type="xstring" value="FNC72"/>
+<entry key="72" type="xstring" value="FNC73"/>
+<entry key="73" type="xstring" value="FNC74"/>
+<entry key="74" type="xstring" value="FNC75"/>
+<entry key="75" type="xstring" value="FNC76"/>
+<entry key="76" type="xstring" value="FNC77"/>
+<entry key="77" type="xstring" value="FNC78"/>
+<entry key="78" type="xstring" value="FNC79"/>
+<entry key="79" type="xstring" value="FNC80"/>
+<entry key="80" type="xstring" value="FNC81"/>
+<entry key="81" type="xstring" value="FNC82"/>
+<entry key="82" type="xstring" value="FNC83"/>
+<entry key="83" type="xstring" value="FNC84"/>
+<entry key="84" type="xstring" value="FNC85"/>
+<entry key="85" type="xstring" value="FNC86"/>
+<entry key="86" type="xstring" value="FNC87"/>
+<entry key="87" type="xstring" value="FNC88"/>
+<entry key="88" type="xstring" value="FNC89"/>
+<entry key="89" type="xstring" value="FNC90"/>
+<entry key="90" type="xstring" value="FNC91"/>
+<entry key="91" type="xstring" value="FNC92"/>
+<entry key="92" type="xstring" value="FNC93"/>
+<entry key="93" type="xstring" value="FNC94"/>
+<entry key="94" type="xstring" value="FNC95"/>
+<entry key="95" type="xstring" value="FNC96"/>
+<entry key="96" type="xstring" value="FNC97"/>
+<entry key="97" type="xstring" value="FNC98"/>
+<entry key="98" type="xstring" value="FNC99"/>
+<entry key="99" type="xstring" value="FNC100"/>
+<entry key="100" type="xstring" value="FNC101"/>
+<entry key="101" type="xstring" value="FNC102"/>
+<entry key="102" type="xstring" value="FNC103"/>
+<entry key="103" type="xstring" value="FNC104"/>
+<entry key="104" type="xstring" value="FNC105"/>
+<entry key="105" type="xstring" value="FNC106"/>
+<entry key="106" type="xstring" value="FNC107"/>
+<entry key="107" type="xstring" value="FNC108"/>
+<entry key="108" type="xstring" value="FNC109"/>
+<entry key="109" type="xstring" value="FNC110"/>
+<entry key="110" type="xstring" value="FNC111"/>
+<entry key="111" type="xstring" value="FNC112"/>
+<entry key="112" type="xstring" value="FNC113"/>
+<entry key="113" type="xstring" value="FNC114"/>
+<entry key="114" type="xstring" value="FNC115"/>
+<entry key="115" type="xstring" value="FNC116"/>
+<entry key="116" type="xstring" value="FNC117"/>
+<entry key="117" type="xstring" value="FNC118"/>
+<entry key="118" type="xstring" value="FNC119"/>
+<entry key="119" type="xstring" value="FNC120"/>
+<entry key="120" type="xstring" value="FNC121"/>
+<entry key="121" type="xstring" value="FNC122"/>
+<entry key="122" type="xstring" value="FNC123"/>
+<entry key="123" type="xstring" value="FNC124"/>
+<entry key="124" type="xstring" value="FNC125"/>
+<entry key="125" type="xstring" value="FNC126"/>
+<entry key="126" type="xstring" value="FNC127"/>
+<entry key="127" type="xstring" value="FNC128"/>
+<entry key="128" type="xstring" value="FNC129"/>
+<entry key="129" type="xstring" value="FNC130"/>
+<entry key="130" type="xstring" value="FNC131"/>
+<entry key="131" type="xstring" value="FNC132"/>
+<entry key="132" type="xstring" value="FNC133"/>
+<entry key="133" type="xstring" value="FNC134"/>
+<entry key="134" type="xstring" value="FNC135"/>
+<entry key="135" type="xstring" value="FNC136"/>
+<entry key="136" type="xstring" value="FNC137"/>
+<entry key="137" type="xstring" value="FNC138"/>
+<entry key="138" type="xstring" value="FNC139"/>
+<entry key="139" type="xstring" value="FNC140"/>
+<entry key="140" type="xstring" value="FNC141"/>
+<entry key="141" type="xstring" value="FNC142"/>
+<entry key="142" type="xstring" value="FNC143"/>
+<entry key="143" type="xstring" value="FNC144"/>
+<entry key="144" type="xstring" value="FNC145"/>
+<entry key="145" type="xstring" value="FNC146"/>
+<entry key="146" type="xstring" value="FNC147"/>
+<entry key="147" type="xstring" value="FNC148"/>
+<entry key="148" type="xstring" value="FNC149"/>
+<entry key="149" type="xstring" value="FNC150"/>
+<entry key="150" type="xstring" value="FNC151"/>
+<entry key="151" type="xstring" value="FNC152"/>
+<entry key="152" type="xstring" value="FNC153"/>
+<entry key="153" type="xstring" value="FNC154"/>
+<entry key="154" type="xstring" value="FNC155"/>
+<entry key="155" type="xstring" value="FNC156"/>
+<entry key="156" type="xstring" value="FNC157"/>
+<entry key="157" type="xstring" value="FNC158"/>
+<entry key="158" type="xstring" value="FNC159"/>
+<entry key="159" type="xstring" value="FNC160"/>
+<entry key="160" type="xstring" value="FNC161"/>
+<entry key="161" type="xstring" value="FNC162"/>
+<entry key="162" type="xstring" value="FNC163"/>
+<entry key="163" type="xstring" value="FNC164"/>
+<entry key="164" type="xstring" value="FNC165"/>
+<entry key="165" type="xstring" value="FNC166"/>
+<entry key="166" type="xstring" value="FNC167"/>
+<entry key="167" type="xstring" value="FNC168"/>
+<entry key="168" type="xstring" value="FNC169"/>
+<entry key="169" type="xstring" value="FNC170"/>
+<entry key="170" type="xstring" value="FNC171"/>
+<entry key="171" type="xstring" value="FNC172"/>
+<entry key="172" type="xstring" value="FNC173"/>
+<entry key="173" type="xstring" value="FNC174"/>
+<entry key="174" type="xstring" value="FNC175"/>
+<entry key="175" type="xstring" value="FNC176"/>
+<entry key="176" type="xstring" value="FNC177"/>
+<entry key="177" type="xstring" value="FNC178"/>
+<entry key="178" type="xstring" value="FNC179"/>
+<entry key="179" type="xstring" value="FNC180"/>
+<entry key="180" type="xstring" value="FNC181"/>
+<entry key="181" type="xstring" value="FNC182"/>
+<entry key="182" type="xstring" value="FNC183"/>
+<entry key="183" type="xstring" value="FNC184"/>
+<entry key="184" type="xstring" value="FNC185"/>
+<entry key="185" type="xstring" value="FNC186"/>
+<entry key="186" type="xstring" value="FNC187"/>
+<entry key="187" type="xstring" value="FNC188"/>
+<entry key="188" type="xstring" value="FNC189"/>
+<entry key="189" type="xstring" value="FNC190"/>
+<entry key="190" type="xstring" value="FNC191"/>
+<entry key="191" type="xstring" value="FNC192"/>
+<entry key="192" type="xstring" value="FNC193"/>
+<entry key="193" type="xstring" value="FNC194"/>
+<entry key="194" type="xstring" value="FNC195"/>
+<entry key="195" type="xstring" value="FNC196"/>
+<entry key="196" type="xstring" value="FNC197"/>
+<entry key="197" type="xstring" value="FNC198"/>
+<entry key="198" type="xstring" value="FNC199"/>
+<entry key="199" type="xstring" value="FNC200"/>
+<entry key="200" type="xstring" value="FNC201"/>
+<entry key="201" type="xstring" value="FNC202"/>
+<entry key="202" type="xstring" value="FNC203"/>
+<entry key="203" type="xstring" value="FNC204"/>
+<entry key="204" type="xstring" value="FNC205"/>
+<entry key="205" type="xstring" value="FNC206"/>
+<entry key="206" type="xstring" value="FNC207"/>
+<entry key="207" type="xstring" value="FNC208"/>
+<entry key="208" type="xstring" value="FNC209"/>
+<entry key="209" type="xstring" value="FNC210"/>
+<entry key="210" type="xstring" value="FNC211"/>
+<entry key="211" type="xstring" value="FNC212"/>
+<entry key="212" type="xstring" value="FNC213"/>
+<entry key="213" type="xstring" value="FNC214"/>
+<entry key="214" type="xstring" value="FNC215"/>
+<entry key="215" type="xstring" value="FNC216"/>
+<entry key="216" type="xstring" value="FNC217"/>
+<entry key="217" type="xstring" value="FNC218"/>
+<entry key="218" type="xstring" value="FNC219"/>
+<entry key="219" type="xstring" value="FNC220"/>
+<entry key="220" type="xstring" value="FNC221"/>
+<entry key="221" type="xstring" value="FNC222"/>
+<entry key="222" type="xstring" value="FNC223"/>
+<entry key="223" type="xstring" value="FNC224"/>
+<entry key="224" type="xstring" value="FNC225"/>
+<entry key="225" type="xstring" value="FNC226"/>
+<entry key="226" type="xstring" value="FNC227"/>
+<entry key="227" type="xstring" value="FNC228"/>
+<entry key="228" type="xstring" value="FNC229"/>
+<entry key="229" type="xstring" value="FNC230"/>
+<entry key="230" type="xstring" value="FNC231"/>
+<entry key="231" type="xstring" value="FNC232"/>
+<entry key="232" type="xstring" value="FNC233"/>
+<entry key="233" type="xstring" value="FNC234"/>
+<entry key="234" type="xstring" value="FNC235"/>
+<entry key="235" type="xstring" value="FNC236"/>
+<entry key="236" type="xstring" value="FNC237"/>
+<entry key="237" type="xstring" value="FNC238"/>
+<entry key="238" type="xstring" value="FNC239"/>
+<entry key="239" type="xstring" value="FNC240"/>
+<entry key="240" type="xstring" value="FNC241"/>
+<entry key="241" type="xstring" value="FNC242"/>
+<entry key="242" type="xstring" value="FNC243"/>
+<entry key="243" type="xstring" value="FNC244"/>
+<entry key="244" type="xstring" value="FNC245"/>
+<entry key="245" type="xstring" value="FNC246"/>
+<entry key="246" type="xstring" value="FNC247"/>
+<entry key="247" type="xstring" value="FNC248"/>
+<entry key="248" type="xstring" value="FNC249"/>
+<entry key="249" type="xstring" value="FNC250"/>
+<entry key="250" type="xstring" value="FNC251"/>
+<entry key="251" type="xstring" value="FNC252"/>
+<entry key="252" type="xstring" value="FNC253"/>
+<entry key="253" type="xstring" value="FNC254"/>
+<entry key="254" type="xstring" value="FNC255"/>
+<entry key="255" type="xstring" value="FNC256"/>
+<entry key="256" type="xstring" value="FNC257"/>
+<entry key="257" type="xstring" value="FNC258"/>
+<entry key="258" type="xstring" value="FNC259"/>
+<entry key="259" type="xstring" value="FNC260"/>
+<entry key="260" type="xstring" value="FNC261"/>
+<entry key="261" type="xstring" value="FNC262"/>
+<entry key="262" type="xstring" value="FNC263"/>
+<entry key="263" type="xstring" value="FNC264"/>
+<entry key="264" type="xstring" value="FNC265"/>
+<entry key="265" type="xstring" value="FNC266"/>
+<entry key="266" type="xstring" value="FNC267"/>
+<entry key="267" type="xstring" value="FNC268"/>
+<entry key="268" type="xstring" value="FNC269"/>
+<entry key="269" type="xstring" value="FNC270"/>
+<entry key="270" type="xstring" value="FNC271"/>
+<entry key="271" type="xstring" value="FNC272"/>
+<entry key="272" type="xstring" value="FNC273"/>
+<entry key="273" type="xstring" value="FNC274"/>
+<entry key="274" type="xstring" value="FNC275"/>
+<entry key="275" type="xstring" value="FNC276"/>
+<entry key="276" type="xstring" value="FNC277"/>
+<entry key="277" type="xstring" value="FNC278"/>
+<entry key="278" type="xstring" value="FNC279"/>
+<entry key="279" type="xstring" value="FNC280"/>
+<entry key="280" type="xstring" value="FNC281"/>
+<entry key="281" type="xstring" value="FNC282"/>
+<entry key="282" type="xstring" value="FNC283"/>
+<entry key="283" type="xstring" value="FNC284"/>
+<entry key="284" type="xstring" value="FNC285"/>
+<entry key="285" type="xstring" value="FNC286"/>
+<entry key="286" type="xstring" value="FNC287"/>
+<entry key="287" type="xstring" value="FNC288"/>
+<entry key="288" type="xstring" value="FNC289"/>
+<entry key="289" type="xstring" value="FNC290"/>
+<entry key="290" type="xstring" value="FNC291"/>
+<entry key="291" type="xstring" value="FNC292"/>
+<entry key="292" type="xstring" value="FNC293"/>
+<entry key="293" type="xstring" value="FNC294"/>
+<entry key="294" type="xstring" value="FNC295"/>
+<entry key="295" type="xstring" value="FNC296"/>
+<entry key="296" type="xstring" value="FNC297"/>
+<entry key="297" type="xstring" value="FNC298"/>
+<entry key="298" type="xstring" value="FNC299"/>
+<entry key="299" type="xstring" value="FNC300"/>
+<entry key="300" type="xstring" value="FNC301"/>
+<entry key="301" type="xstring" value="FNC302"/>
+<entry key="302" type="xstring" value="FNC303"/>
+<entry key="303" type="xstring" value="FNC304"/>
+<entry key="304" type="xstring" value="FNC305"/>
+<entry key="305" type="xstring" value="FNC306"/>
+<entry key="306" type="xstring" value="FNC307"/>
+<entry key="307" type="xstring" value="FNC308"/>
+<entry key="308" type="xstring" value="FNC309"/>
+<entry key="309" type="xstring" value="FNC310"/>
+<entry key="310" type="xstring" value="FNC311"/>
+<entry key="311" type="xstring" value="FNC312"/>
+<entry key="312" type="xstring" value="FNC313"/>
+<entry key="313" type="xstring" value="FNC314"/>
+<entry key="314" type="xstring" value="FNC315"/>
+<entry key="315" type="xstring" value="FNC316"/>
+<entry key="316" type="xstring" value="FNC317"/>
+<entry key="317" type="xstring" value="FNC318"/>
+<entry key="318" type="xstring" value="FNC319"/>
+<entry key="319" type="xstring" value="FNC320"/>
+<entry key="320" type="xstring" value="FNC321"/>
+<entry key="321" type="xstring" value="FNC322"/>
+<entry key="322" type="xstring" value="FNC323"/>
+<entry key="323" type="xstring" value="FNC324"/>
+<entry key="324" type="xstring" value="FNC325"/>
+<entry key="325" type="xstring" value="FNC326"/>
+<entry key="326" type="xstring" value="FNC327"/>
+<entry key="327" type="xstring" value="FNC328"/>
+<entry key="328" type="xstring" value="FNC329"/>
+<entry key="329" type="xstring" value="FNC330"/>
+<entry key="330" type="xstring" value="FNC331"/>
+<entry key="331" type="xstring" value="FNC332"/>
+<entry key="332" type="xstring" value="FNC333"/>
+<entry key="333" type="xstring" value="FNC334"/>
+<entry key="334" type="xstring" value="FNC335"/>
+<entry key="335" type="xstring" value="FNC336"/>
+<entry key="336" type="xstring" value="FNC337"/>
+<entry key="337" type="xstring" value="FNC338"/>
+<entry key="338" type="xstring" value="FNC339"/>
+<entry key="339" type="xstring" value="FNC340"/>
+<entry key="340" type="xstring" value="FNC341"/>
+<entry key="341" type="xstring" value="FNC342"/>
+<entry key="342" type="xstring" value="FNC343"/>
+<entry key="343" type="xstring" value="FNC344"/>
+<entry key="344" type="xstring" value="FNC345"/>
+<entry key="345" type="xstring" value="FNC346"/>
+<entry key="346" type="xstring" value="FNC347"/>
+<entry key="347" type="xstring" value="FNC348"/>
+<entry key="348" type="xstring" value="FNC349"/>
+<entry key="349" type="xstring" value="FNC350"/>
+<entry key="350" type="xstring" value="FNC351"/>
+<entry key="351" type="xstring" value="FNC352"/>
+<entry key="352" type="xstring" value="FNC353"/>
+<entry key="353" type="xstring" value="FNC354"/>
+<entry key="354" type="xstring" value="FNC355"/>
+<entry key="355" type="xstring" value="FNC356"/>
+<entry key="356" type="xstring" value="FNC357"/>
+<entry key="357" type="xstring" value="FNC358"/>
+<entry key="358" type="xstring" value="FNC359"/>
+<entry key="359" type="xstring" value="FNC360"/>
+<entry key="360" type="xstring" value="FNC361"/>
+<entry key="361" type="xstring" value="FNC362"/>
+<entry key="362" type="xstring" value="FNC363"/>
+<entry key="363" type="xstring" value="FNC364"/>
+<entry key="364" type="xstring" value="FNC365"/>
+<entry key="365" type="xstring" value="FNC366"/>
+<entry key="366" type="xstring" value="FNC367"/>
+<entry key="367" type="xstring" value="FNC368"/>
+<entry key="368" type="xstring" value="FNC369"/>
+<entry key="369" type="xstring" value="FNC370"/>
+<entry key="370" type="xstring" value="FNC371"/>
+<entry key="371" type="xstring" value="FNC372"/>
+<entry key="372" type="xstring" value="FNC373"/>
+<entry key="373" type="xstring" value="FNC374"/>
+<entry key="374" type="xstring" value="FNC375"/>
+<entry key="375" type="xstring" value="FNC376"/>
+<entry key="376" type="xstring" value="FNC377"/>
+<entry key="377" type="xstring" value="FNC378"/>
+<entry key="378" type="xstring" value="SBM_map1"/>
+<entry key="379" type="xstring" value="SBM_map2"/>
+<entry key="380" type="xstring" value="SBM_map3"/>
+<entry key="381" type="xstring" value="SBM_map4"/>
+<entry key="382" type="xstring" value="SBM_map5"/>
+<entry key="383" type="xstring" value="SBM_map6"/>
+<entry key="384" type="xstring" value="SBM_map7"/>
+<entry key="385" type="xstring" value="SBM_map8"/>
+<entry key="386" type="xstring" value="SBM_map10"/>
+<entry key="387" type="xstring" value="SBM_map13"/>
+<entry key="388" type="xstring" value="SBM_map17"/>
+<entry key="389" type="xstring" value="SBM_map22"/>
+<entry key="390" type="xstring" value="SBM_map26"/>
+<entry key="391" type="xstring" value="SBM_map28"/>
+<entry key="392" type="xstring" value="SBM_map32"/>
+<entry key="393" type="xstring" value="SBM_map36"/>
+<entry key="394" type="xstring" value="SBM_map40"/>
+<entry key="395" type="xstring" value="SBM_map43"/>
+<entry key="396" type="xstring" value="SBM_map45"/>
+<entry key="397" type="xstring" value="SBM_map48"/>
+<entry key="398" type="xstring" value="SBM_map51"/>
+<entry key="399" type="xstring" value="SBM_map52"/>
+<entry key="400" type="xstring" value="SBM_map55"/>
+<entry key="401" type="xstring" value="SBM_map61"/>
+<entry key="402" type="xstring" value="SBM_map64"/>
+<entry key="403" type="xstring" value="SBM_map67"/>
+<entry key="404" type="xstring" value="SBM_map69"/>
+<entry key="405" type="xstring" value="SBM_map71"/>
+<entry key="406" type="xstring" value="SBM_map72"/>
+<entry key="407" type="xstring" value="SBM_map73"/>
+<entry key="408" type="xstring" value="SBM_map74"/>
+<entry key="409" type="xstring" value="SBM_map75"/>
+<entry key="410" type="xstring" value="PCA dimension 0"/>
+<entry key="411" type="xstring" value="PCA dimension 1"/>
+<entry key="412" type="xstring" value="PCA dimension 2"/>
+<entry key="413" type="xstring" value="PCA dimension 3"/>
+<entry key="414" type="xstring" value="PCA dimension 4"/>
+<entry key="415" type="xstring" value="PCA dimension 5"/>
+<entry key="416" type="xstring" value="PCA dimension 6"/>
+<entry key="417" type="xstring" value="PCA dimension 7"/>
+<entry key="418" type="xstring" value="PCA dimension 8"/>
+<entry key="419" type="xstring" value="PCA dimension 9"/>
+<entry key="420" type="xstring" value="PCA dimension 10"/>
+<entry key="421" type="xstring" value="PCA dimension 11"/>
+<entry key="422" type="xstring" value="PCA dimension 12"/>
+<entry key="423" type="xstring" value="PCA dimension 13"/>
+<entry key="424" type="xstring" value="PCA dimension 14"/>
+<entry key="425" type="xstring" value="PCA dimension 15"/>
+<entry key="426" type="xstring" value="PCA dimension 16"/>
+<entry key="427" type="xstring" value="PCA dimension 17"/>
+<entry key="428" type="xstring" value="PCA dimension 18"/>
+<entry key="429" type="xstring" value="PCA dimension 19"/>
+<entry key="430" type="xstring" value="PCA dimension 20"/>
+<entry key="431" type="xstring" value="PCA dimension 21"/>
+<entry key="432" type="xstring" value="PCA dimension 22"/>
+<entry key="433" type="xstring" value="PCA dimension 23"/>
+<entry key="434" type="xstring" value="PCA dimension 24"/>
+<entry key="435" type="xstring" value="PCA dimension 25"/>
+<entry key="436" type="xstring" value="PCA dimension 26"/>
+<entry key="437" type="xstring" value="PCA dimension 27"/>
+<entry key="438" type="xstring" value="PCA dimension 28"/>
+<entry key="439" type="xstring" value="PCA dimension 29"/>
+<entry key="440" type="xstring" value="PCA dimension 30"/>
+<entry key="441" type="xstring" value="PCA dimension 31"/>
+<entry key="442" type="xstring" value="PCA dimension 32"/>
+<entry key="443" type="xstring" value="PCA dimension 33"/>
+<entry key="444" type="xstring" value="PCA dimension 34"/>
+<entry key="445" type="xstring" value="PCA dimension 35"/>
+<entry key="446" type="xstring" value="PCA dimension 36"/>
+<entry key="447" type="xstring" value="PCA dimension 37"/>
+<entry key="448" type="xstring" value="PCA dimension 38"/>
+<entry key="449" type="xstring" value="PCA dimension 39"/>
+<entry key="450" type="xstring" value="PCA dimension 40"/>
+<entry key="451" type="xstring" value="PCA dimension 41"/>
+<entry key="452" type="xstring" value="PCA dimension 42"/>
+<entry key="453" type="xstring" value="PCA dimension 43"/>
+<entry key="454" type="xstring" value="PCA dimension 44"/>
+<entry key="455" type="xstring" value="PCA dimension 45"/>
+<entry key="456" type="xstring" value="PCA dimension 46"/>
+<entry key="457" type="xstring" value="PCA dimension 47"/>
+<entry key="458" type="xstring" value="PCA dimension 48"/>
+<entry key="459" type="xstring" value="PCA dimension 49"/>
+<entry key="460" type="xstring" value="PCA dimension 50"/>
+<entry key="461" type="xstring" value="PCA dimension 51"/>
+<entry key="462" type="xstring" value="PCA dimension 52"/>
+<entry key="463" type="xstring" value="PCA dimension 53"/>
+<entry key="464" type="xstring" value="PCA dimension 54"/>
+<entry key="465" type="xstring" value="PCA dimension 55"/>
+<entry key="466" type="xstring" value="PCA dimension 56"/>
+<entry key="467" type="xstring" value="PCA dimension 57"/>
+<entry key="468" type="xstring" value="PCA dimension 58"/>
+<entry key="469" type="xstring" value="PCA dimension 59"/>
+<entry key="470" type="xstring" value="PCA dimension 60"/>
+<entry key="471" type="xstring" value="PCA dimension 61"/>
+<entry key="472" type="xstring" value="PCA dimension 62"/>
+<entry key="473" type="xstring" value="PCA dimension 63"/>
+<entry key="474" type="xstring" value="PCA dimension 64"/>
+<entry key="475" type="xstring" value="PCA dimension 65"/>
+<entry key="476" type="xstring" value="PCA dimension 66"/>
+<entry key="477" type="xstring" value="PCA dimension 67"/>
+<entry key="478" type="xstring" value="PCA dimension 68"/>
+<entry key="479" type="xstring" value="PCA dimension 69"/>
+<entry key="480" type="xstring" value="PCA dimension 70"/>
+<entry key="481" type="xstring" value="PCA dimension 71"/>
+<entry key="482" type="xstring" value="PCA dimension 72"/>
+<entry key="483" type="xstring" value="PCA dimension 73"/>
+<entry key="484" type="xstring" value="PCA dimension 74"/>
+<entry key="485" type="xstring" value="PCA dimension 75"/>
+<entry key="486" type="xstring" value="PCA dimension 76"/>
+<entry key="487" type="xstring" value="PCA dimension 77"/>
+<entry key="488" type="xstring" value="PCA dimension 78"/>
+<entry key="489" type="xstring" value="PCA dimension 79"/>
+<entry key="490" type="xstring" value="PCA dimension 80"/>
+<entry key="491" type="xstring" value="PCA dimension 81"/>
+<entry key="492" type="xstring" value="PCA dimension 82"/>
+<entry key="493" type="xstring" value="PCA dimension 83"/>
+<entry key="494" type="xstring" value="PCA dimension 84"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="name" type="xstring" value="Hierarchical Clustering"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 86, Cols: 497"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="fb797d1d-532a-4670-9396-0aa434122741"/>
+</config>
+</config>
